@@ -1,0 +1,2 @@
+[cloudru]
+158.160.17.122 ansible_ssh_user=zelim
