@@ -27,8 +27,9 @@
     - name: Add public key for cloudru user
       authorized_key:
         user: cloudru
-        key: "ssh-rsa AAAAB3N..."
+        key: "{{ lookup('file', 'sshkey.txt') }}"
         state: present
+
 
   handlers:
     - name: Restart SSHD
