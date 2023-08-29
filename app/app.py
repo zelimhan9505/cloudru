@@ -2,10 +2,6 @@ from flask import Flask
 import os
 import socket
 
-os.environ['AUTHOR'] = 'Zelimhan'
-os.environ['UUID'] = '123e4567-e89b-12d3-a456-426614174000'
-
-
 app = Flask(__name__)
 
 @app.route('/hostname')
