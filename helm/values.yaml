@@ -2,4 +2,4 @@ replicaCount: 1
 image:
   repository: zelimhan/my-app-image
   tag: latest
-author: "Default Author"
+author: "Zelimhan"
