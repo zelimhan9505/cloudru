@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: my-python-app:latest
+        image: zelimhan/my-python-app:latest
         ports:
         - containerPort: 8000
         readinessProbe:
